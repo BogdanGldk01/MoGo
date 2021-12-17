@@ -1,0 +1,11 @@
+body, header, div, nav, p, input, form{
+    box-sizing: border-box;
+}
+body, header, div, img, h1, h2, h3, nav, p, a{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
