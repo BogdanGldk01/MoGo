@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'kaush-reg';
+    src: url(../fonts/KaushanScript-Regular.ttf);
+}
+@font-face {
+    font-family: 'monts-bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'monts-reg';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'robo-light';
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'robo-reg';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
