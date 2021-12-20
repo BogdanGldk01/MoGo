@@ -1,0 +1,35 @@
+/* Statistics */
+
+.statistics{
+    background-color: #95e1d3;
+}
+
+.stat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat__item{
+    flex: 1 1 0;
+    border-left: 1px solid #b5eae0;
+    text-align: center;
+    color: #fff;
+    padding: 70px 25px;
+}
+
+.stat__item:last-child{
+    border-right: 1px solid #b5eae0;
+}
+
+.stat__num{
+    font-family: "monts-bold";
+    font-size: 72px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.stat__desc{
+    font-family: "monts-bold";
+    font-size: 14px;
+    text-transform: uppercase;
+}

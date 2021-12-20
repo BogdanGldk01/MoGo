@@ -1,0 +1,117 @@
+/* Intro */
+
+.intro{
+    color: #ffffff;
+
+    width: 100%;
+    height: 100vh;
+    background: url(../../img/eagle.jpg) no-repeat center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__text{
+    font-family: 'kaush-reg';
+    font-size: 72px;
+    
+    margin-bottom: 15px;
+}
+
+.intro__title{
+    font-family: 'monts-bold';
+    font-size: 150px;
+    line-height: 140px;
+    text-transform: uppercase;
+
+    position: relative;
+}
+
+.intro__title:after{
+    content:"";
+    display: block;
+    margin: 60px auto 60px;
+
+    width: 60px;
+    height: 3px;
+
+    background-color: #fff;
+}
+
+/* Button */
+
+.btn{
+    font-family: "monts-bold";
+    font-size: 14px;
+    text-transform: uppercase;
+
+    display: inline-block;
+    border: 3px solid white;
+    padding: 10px 30px;
+    transition: background .1s linear;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+/* Slider */
+
+.slider{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.slider__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__item{
+    width: 24%;
+    border-top: 3px solid white;
+    padding-top: 20px;
+    position: relative;
+    opacity: .7;
+    font-family: "monts-reg";
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.slider__item:hover{
+    opacity: 1;
+}
+
+.slider__item:before{
+    content:"";
+    display: block;
+    width: 70px;
+    height: 3px;
+
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 1;
+}
+
+.slider__item:hover:before{
+    background-color: #f38181;
+}
+
+.slider__num{
+    font-size: 23px;
+    font-family: "monts-bold";
+}
