@@ -1,0 +1,64 @@
+/* Header */
+
+.header{
+    color: #ffffff;
+    padding-top: 40px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'monts-bold';
+    font-size: 30px;
+}
+
+/* Menu */
+
+.menu{
+    font-family: 'monts-reg';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.menu__link{
+    position: relative;
+    display: inline-block;
+    margin: 0 25px;
+    transition: color .2s linear;
+}
+
+.menu__link:hover{
+    color: #fce38a;
+}
+
+.menu__link:after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    z-index: 1;
+    height: 3px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .1s linear;
+    background: #fce38a;
+}
+
+.menu__link:hover:after{
+    opacity: 1;
+}
+
+.menu__link:last-child{
+    margin-right: 0;
+    margin-left: 10px;
+}
