@@ -1,0 +1,106 @@
+
+/* Container */
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section */
+
+.section{
+    padding: 80px 0;
+}
+
+.section--devices{
+    background: url("../img/devices-bg.jpg") center no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+}
+
+.section--gray{
+    background-color: #f8f8f8;
+}
+
+.section--people{
+    background: url("../img/people-bg.png") center no-repeat;
+    background-size: cover;
+}
+
+.section--map{
+    background: url("../img/map-bg.png") center no-repeat;
+    background-size: cover;
+
+    padding: 60px 0;
+}
+
+.section__header{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 50px;
+    text-align: center;
+    color: #333;
+}
+
+.section__subtitle{
+    font-family: "kaush-reg";
+    font-size: 24px;
+}
+
+.section__title{
+    font-family: "monts-bold";
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.section__title:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 40px auto;
+}
+
+.section__text{
+    font-family: "robo-reg";
+    font-size: 15px;
+    line-height: 24px;
+    color: #999;
+}
+
+/* Reviews */
+
+.reviews__icon--cor{
+    top: -30px;
+}
+
+/* Common */
+
+hr{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+
+    border: 0;
+    background-color: #e5e5e5;
+}
+
+input{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
