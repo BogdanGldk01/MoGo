@@ -1,0 +1,79 @@
+/* WeDo */
+
+.wedo{
+    display: flex;
+}
+
+.wedo__item{
+    width: 50%;
+}
+
+/* Accordion */
+
+.accordion__item{
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+
+
+.accordion__header{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 20px 15px 65px;
+    position: relative;
+}
+
+.accordion__icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.accordion__title{
+    font-family: "monts-bold";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.accordion__arrow{
+    display: block;
+    width: 16px;
+    height: 16px;
+
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 1;
+    transform: translateY(-65%) rotate(135deg);
+}
+
+.accordion__content{
+    padding: 15px 20px;
+
+    font-family: "robo-light";
+    font-size: 15px;
+    color: #999;
+
+    display: none;
+}
+
+input:checked ~ .accordion__content{
+    display: block;
+}
+
+input:not(checked) ~ .accordion__header{
+    border: none;
+}
+
+input:checked ~ .accordion__header{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+input:checked ~ .accordion__header #label .accordion__arrow{
+    transform: translateY(-50%) rotate(-45deg);
+}
