@@ -115,3 +115,41 @@
     font-size: 23px;
     font-family: "monts-bold";
 }
+
+@media (max-width: 630px){ 
+    
+    .intro__inner{
+        max-width: 400px;
+    }
+
+    .intro__text{
+        font-size: 30px;
+    }
+    
+    .intro__title{
+        font-size: 60px;
+        line-height: 1;
+    }
+
+    .intro__title:after{
+        margin: 40px auto 40px;
+    }
+
+    .btn{
+        padding: 8px 25px;
+    }
+
+    .slider__item{
+        width: 23.3333%;
+        padding-top: 5px;
+        font-size: 18px;
+    }
+
+    .slider__item:before{
+        width: 45px;
+    }
+
+    .slider__num{
+        display: block;
+    }
+}

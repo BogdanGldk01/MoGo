@@ -77,3 +77,24 @@ input:checked ~ .accordion__header{
 input:checked ~ .accordion__header #label .accordion__arrow{
     transform: translateY(-50%) rotate(-45deg);
 }
+
+@media (max-width: 630px){  
+    
+    .accordion{
+        margin-top: 30px;
+    }
+
+    .wedo{
+        flex-direction: column;
+    }
+
+    .wedo__item{
+        width: 100%;
+    }
+
+    .wedo__pics{
+        max-width: 571px;
+        width: 100%;
+        height: auto;
+    }
+}

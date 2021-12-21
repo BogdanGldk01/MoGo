@@ -3,7 +3,8 @@
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -93,7 +94,40 @@ input{
     display: none;
 }
 
+@media (max-width: 630px){ 
 
+    .section{
+        padding: 60px 0;
+    }
+
+    .section__subtitle{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .section__title{
+        font-size: 26px;
+    }
+
+    .section__title:after{
+        width: 50px;
+        margin: 30px auto;
+    }
+    
+    .section__text{
+        font-size: 15px;
+        line-height: 22px;
+        text-align: start;
+    }
+
+    .section--devices{
+        padding: 60px 0 0;
+    }
+
+    .section--mod{
+        padding: 60px 0 0;
+    }
+}
 
 
 

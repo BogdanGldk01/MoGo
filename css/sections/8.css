@@ -40,3 +40,36 @@
 
     background-color: #f38181;
 }
+
+@media (max-width: 630px){   
+    
+    .reviews{
+        padding: 0;
+    }
+
+    .reviews__item{
+        padding: 0;
+    }
+
+    .reviews__icon{
+        max-width: 70px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .reviews__text{
+        font-size: 18px;
+        margin: 10px 0 10px;
+        text-indent: 20px;
+        text-align: justify;
+    }
+    
+    .reviews__author{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+

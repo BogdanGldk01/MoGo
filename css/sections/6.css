@@ -1,8 +1,8 @@
 /* Devices */
 
 .devices{
-    width: 100%;
     max-width: 600px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -16,4 +16,24 @@
     bottom: -60px;
     right: 0;
     z-index: 1;
+}
+
+@media (max-width: 630px){   
+    
+    .devices{
+        max-width: 300px;
+        width: 100%;
+    }
+    
+    .devices__item{
+        max-width: 380px;
+        width: 100%;
+        height: auto;
+    }
+
+    .devices__item--iphone{
+        max-width: 150px;
+        width: 100%;
+        height: auto;
+    }
 }

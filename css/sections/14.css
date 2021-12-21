@@ -9,6 +9,11 @@
     margin-right: 30px;
 }
 
+.latest__item:last-child{
+    margin-right: 0;
+}
+
+
 .latest__header{
     position: relative;
     margin-bottom: 15px;
@@ -16,7 +21,8 @@
 
 .latest__photo{
     display: block;
-    min-width: 100%;
+    max-width: 380px;
+    width: 100%;
     height: auto;
 }
 
@@ -82,4 +88,22 @@
 
 .latest__count1{
     margin-right: 20px;
+}
+
+@media (max-width: 630px){   
+
+    .latest{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .latest__item{
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .latest__item:last-child{
+        margin-bottom: 0;
+    }
 }

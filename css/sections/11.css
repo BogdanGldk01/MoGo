@@ -63,3 +63,41 @@
     font-family: 'robo-light';
     font-size: 15px;
 }
+
+@media (max-width: 630px){   
+
+    .some{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .some__column{
+        width: 90%;
+    }
+
+    .some__item{
+        margin-bottom: 20px;
+    }
+
+    .some__item--mod{
+        margin-top: 20px;
+    }
+
+    .some__item:last-child{
+        margin-bottom: 0;
+    }
+
+    .some__column--mod{
+        display: none;
+    }
+
+    .some__img{
+        max-width: 540px;
+        width: 100%;
+        height: auto;
+    
+        display: block;
+        transition: opacity .2s linear;
+    }
+}

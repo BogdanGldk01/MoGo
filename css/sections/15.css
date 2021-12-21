@@ -24,3 +24,19 @@
 
     margin: 20px auto 0;
 }
+
+@media (max-width: 630px){   
+
+    .map__icon{
+        margin-bottom: 10px;
+    }
+
+    .map__title{
+        font-size: 20px;
+    }
+
+    .map__title:after{
+        width: 50px;
+    }
+}
+

@@ -30,3 +30,40 @@
     font-size: 15px;
     color: #999;
 }
+
+@media (max-width: 630px){      
+    .services{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .services__item{
+        padding-left: 80px;
+        margin-bottom: 50px;
+    }
+
+    .services__item:last-child{
+        margin: 0;
+    }
+
+    .services__item--mod{
+        margin-top: 50px;
+    }
+
+    .services__icon{
+        left: 20px;
+    }
+
+    .services__title{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .services__text{
+        font-size: 15px;
+    }
+
+    hr{
+        display: none;
+    }
+}
